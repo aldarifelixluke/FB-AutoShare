@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "Auto.py",    // Ganti dengan nama file utama Python Anda
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "Auto.py"  // Ganti dengan nama file utama Python Anda
+    }
+  ]
+    }
